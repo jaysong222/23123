@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Snoopy Talk</title>
+  </head>
+
+  <body id="login">
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+
+      <div class="status-bar__column">
+        <span>08:02</span>
+      </div>
+
+      <div class="status-bar__column">
+        <span>100%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="login-header">
+      <span class="login-header__title">Welcome to</span>
+      <span class="login-header__title2">Snoopy Talk</span>
+      <p class="login-header__text">
+        If you have a Snoopy Talk Account, log in with your emails or phone
+        number.
+      </p>
+      <img src="icon/Asset 2.png" />
+    </header>
+
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="Email or Phone number" />
+      <input
+        name="password"
+        type="password"
+        placeholder="Password"
+        minlength="8"
+      />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Snoopy Account or Password</a>
+    </form>
+
+    <div id="no-mobile">
+      <img src="no-mobile.png" />
+      <span>Your screen is too big</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
